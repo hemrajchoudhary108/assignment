@@ -114,7 +114,7 @@ This project includes two components:
 Run the following command to start the FastAPI backend:  
 
 ```bash
-uvicorn api:app --host 0.0.0.0 --port 8001 --reload
+uvicorn app:app --host 0.0.0.0 --port 8001 --reload
 ```
 
 - The API will be accessible at: **`http://localhost:8001`**  
@@ -125,7 +125,7 @@ uvicorn api:app --host 0.0.0.0 --port 8001 --reload
 In a new terminal window, run:  
 
 ```bash
-streamlit run ui.py --server.port 8501
+streamlit run app_streamlit.py --server.port 8501
 ```
 
 - The Streamlit UI will be available at: **`http://localhost:8501`**  
