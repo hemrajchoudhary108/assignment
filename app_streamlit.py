@@ -15,7 +15,7 @@ age = st.number_input("Age", value=43.0)
 salary = st.number_input("Salary", value=65000.0)
 tenure_years = st.number_input("Tenure (Years)", value=4.0)
 
-gender = st.selectbox("Gender", ["Female", "Male", "Other"])
+gender = st.selectbox("Gender", ["Female", "Male"])
 marital_status = st.selectbox("Marital Status", ["Single", "Divorced", "Married", "Widowed"])
 employment_type = st.selectbox("Employment Type", ["Part-time", "Full-time", "Contract"])
 region = st.selectbox("Region", ["West", "Midwest", "Northeast", "South"])
